@@ -32,7 +32,7 @@ const newarray5 = array5.findIndex(array5 => array5 < 0);
 console.log(newarray5);
 
 
-const array6 = ['aword', 'bword', 'cword', 'dword', 'eword'];
+const array6 = ['aword', 'bword', 'cword', 'dword', 'eword', 'fword'];
 const newarray6 = array6.indexOf('cword');
 if (newarray6 > 0) {
     console.log('cword is in the array');
@@ -216,9 +216,13 @@ const newarray29 = array29.flat();  //1 or 0 se 1 level tak flatten karega
 console.log(newarray29);
 
 
-const array30 = ['hello there', 'how are you', 'doing today'];
-const newarray30 = array30.flatMap();
-console.log(newarray30);
+// const array30 = ['hello there', 'how are you', 'doing today'];
+// const newarray30 = array30.flatMap();
+// console.log(newarray30);
+
+
+
+
 // const arr1 = [1, 2, 1];
 
 // const result = arr1.flatMap((num) => (num === 2 ? [2, 2] : 1));
