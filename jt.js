@@ -13,6 +13,7 @@ const array2 = [{ name: 'name1', grade: 'A' },
     {name: 'name7', grade: 'A'},
     {name: 'name8', grade: 'B'},
     {name: 'name9', grade: 'C'}];
+array2.map(item => console.log(item));
 const newarray2 = array2.map(array2 => array2.grade);
 console.log(newarray2);
 
@@ -69,7 +70,7 @@ if (newarray9 === true) {
 
 
 const array10 = ['hello', 'world', 'good', 'morning', 'everyone'];
-const newarray10 = array10.join(' + ');
+const newarray10 = array10.join(' ');
 console.log(newarray10);
 
 
@@ -77,7 +78,7 @@ const array11 = new Array(10).fill('empty');
 console.log(array11);
 
 
-const array12 = ['ben', 'jerry', 'tim', 'kim', 'arthur', 'casey'];
+const array12 = ['ben', 'jerry', 'tim', 'kim', 'arthur','casey'];
 const newarray12 = array12.sort();
 console.log(newarray12);
 
